@@ -9,6 +9,7 @@ BOARD_DOCKER_ENV_INIT_KERNEL_CMDLINE := \
   qemu=1 \
   androidboot.hardware=ranchu \
   android.bootanim=0 \
+  android.qemud=1 \
   qemu.gles=1 \
   qemu.opengles.version=65536 \
   $(empty)
